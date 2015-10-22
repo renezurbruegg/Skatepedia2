@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/CommentsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/markerLayout"
+            android:background="#fff" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" >
+
+                <RelativeLayout
+                    android:id="@+id/LinLayoutfurScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff" >
+
+                    <LinearLayout
+                        android:id="@+id/CommentsShowLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/Activity_map_placeholder"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/CommentsShowLayout"
+                        android:background="#696969" />
+
+                    <RelativeLayout
+                        android:id="@+id/CommentsInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Activity_map_placeholder"
+                        android:background="#f4f4f4"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp" >
+
+                        <EditText
+                            android:id="@+id/InputPersonName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:ems="5"
+                            android:hint="@string/activityMapNewCommentNameStringTextBox"
+                            android:inputType="textPersonName"
+                            >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <EditText
+                            android:id="@+id/InputBeitrag"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/InputPersonName"
+                            android:background="#fff"
+                            android:ems="5"
+                            android:hint="@string/activityMapNewCommentStringTextBox"
+                            android:inputType="textMultiLine"
+                             />
+
+                        <Button
+                            android:id="@+id/InputButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/InputBeitrag"
+                            android:text="@string/activityMapNewCommentSendStringTextBox" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>

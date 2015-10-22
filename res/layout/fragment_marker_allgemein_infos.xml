@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contRowLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+         >
+	
+	      
+       <LinearLayout
+            android:id="@+id/markerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+          >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/Activity_Map_Beschrieb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beeeeeeschrieb"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/Activity_map_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/trickName"
+                    android:gravity="right"
+                    android:text="distance"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#bababa" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>

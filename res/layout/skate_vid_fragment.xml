@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/Activity_tricks_vidview_tablerow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="9dp"
+                android:background="#bababa" >
+
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="224dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp" />
+            </TableRow>
+
+            <ImageView
+                android:id="@+id/activity_tricks_placeholder_arrow"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_below="@+id/Activity_tricks_vidview_tablerow"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/arrow_trickactivity" />
+
+            <TextView
+                android:id="@+id/beschreibung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_tricks_placeholder_arrow"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="left"
+                android:maxLines="20" >
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

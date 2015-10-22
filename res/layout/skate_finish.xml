@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize" >
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/skateback" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#70ffffff"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/skater1View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Skater 1"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/failed1View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/SkateGameStringFailed"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/succeeded1View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/SkateGameStringLanded"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/SKATE1View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="SKATE "
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/skater2View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/failed2View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/SkateGameStringFailed"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/succeeded2View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/SkateGameStringLanded"
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/SKATE2View"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="SKATE "
+                                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                            </TableRow>
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/skate1vs2View"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:text="Skater 1 hat gegen Skater 2 mit Skate zu Ska verloren"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3" >
+
+                    <ImageView
+                        android:id="@+id/skateImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/skate5" />
+                </TableRow>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#111"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Skatepedia</string>
+    <string name="title_section1">ABC</string>
+    <string name="title_section2">Difficulties</string>
+    <string name="title_section3">Trick modes</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_Action">Search</string>
+    <string name="tricksContainer">tricksContainer</string>
+
+    <!-- >           Basic Headers & Contents            < -->
+    <string name="generell"> Skating started 1950 when surf....</string>
+    <string name="allgemein">Generally</string>
+    <string name="allgemein_cont">I\'m also a Text about Skating in general.</string>
+    <string name="pushing">pushing</string>
+    <string name="pushing_cont">Text about Pushing</string>
+    <string name="beginnerTricks">Tricks for beginner</string>
+    <string name="beginnerTricks_cont">Text about tricks for beginner</string>
+    <string name="trickarten">Kind of tricks</string>
+    <string name="trickarten_cont">Also a text about different kinds</string>
+
+    <string-array name="sortier_array">
+        <item>Trick modes</item>
+        <item>Alphabtical</item>
+        <item>Difficulty</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="lang">Language:  </string>
+
+    <string-array name="activitysTitles">
+        <item>Skatetrick List</item>
+        <item>About Skateboarding</item>
+        <item>S.K.A.T.E</item>
+        <item>Add new trick</item>
+        <item>Map</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="Activity_Map_Comments">Comments</string>
+    <string name="downloadOrStreamDialogBoxMessageText">This Application needs data from the internet. You can either download the data (20MB) or stream it.</string>
+    <string name="downloadOrStreamDialogBoxAnswerDownload">Downlad</string>
+    <string name="downloadProgressBarDialogDownloadText">Downloading..</string>
+    <string name="downloadProgressBarDialogStreamText">Please wait</string>
+    <string name="downloadOrStreamDialogBoxAnswerStream">Stream</string>
+    <string name="ErrorMessageNoInternettConnection">No network connection</string>
+    <string name="ErrorMessageDownladFailed">Download failed</string>
+    <string name="activityMapNewCommentStringTextBox">Add a comment</string>
+    <string name="activityMapNewCommentNameStringTextBox">Name</string>
+    <string name="activityMapNewCommentSendStringTextBox">Submit</string>
+    <string name="UpdateDialogMessage">Found Updates. Download?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="SkateTrickDifficultyStringEasy">easy</string>
+    <string name="SkateTrickDifficultyStringMedium">medium</string>
+    <string name="SkateTrickDifficultyStringHard">hard</string>
+    <string name="SkateTrickDifficultyStringReallyHard">really hard</string>
+
+    <string-array name="BasicTabsHeader">
+        <item>History</item>
+        <item>General</item>
+        <item>First steps</item>
+    </string-array>
+
+    <string name="Activity_settings_Toast_ChangeView">Pleace change the view to apply changes.</string>
+    <string name="SkateGameStringFailed">failed</string>
+    <string name="SkateGameStringLanded">landed</string>
+    <string name="markerRateDeleteDialogDescription">description</string>
+    <string name="newTrickTrickName">Name </string>
+    <string name="newTrickTrickDifficulty">Difficulty</string>
+    <string name="newTrickTrickKind">Trick modes</string>
+    <string name="SettingsNetwork">Network settings</string>
+    <string name="SaveOnPhone">Save videos</string>
+    <string name="nollie">Also use switch/nollie tricks</string>
+    <string name="oldSchool">Also use oldschool tricks </string>
+    <string name="easyerTricks">Also use easier tricks</string>
+    <string name="useMastered">Just select tricks I can</string>
+    <string name="upload">Upload Trick</string>
+    <string name="rateMarker">Rate marker</string>
+
+</resources>

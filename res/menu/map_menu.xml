@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/search_action"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search_Action"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Load"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/map_change_menuItem"
+        android:icon="@drawable/ic_action_map"
+        android:title="ChangeMap"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menuMapStandard"
+                android:icon="@drawable/ic_map_normal"
+                android:title="Standart"/>
+            <item
+                android:id="@+id/menuMapSatelite"
+                android:icon="@drawable/ic_map_satelite"
+                android:title="Satelit"/>
+            <item
+                android:id="@+id/menuMapUnderground"
+                android:icon="@drawable/ic_map_terrain"
+                android:title="Untergrund"/>
+        </menu>
+    </item>
+
+</menu>
